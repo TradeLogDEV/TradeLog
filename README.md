@@ -103,10 +103,6 @@ TradeLog supports importing trade history from **TradingView CSV exports**.
 
 ![TradeLog Knowledge Base](screenshots/knowledgebase.png)
 
-### Settings
-
-![TradeLog Settings](screenshots/settings.png)
-
 ---
 
 ## Roadmap
