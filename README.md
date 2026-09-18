@@ -30,7 +30,7 @@ TradeLog is built with a **local-first approach**.
 
 Your trading data is stored locally on your computer using a local database. TradeLog does not require a cloud account or hosted database to use the application.
 
-Your trading data belongs to you.
+**Your trading data stays on your computer and remains under your control.**
 
 ---
 
@@ -43,10 +43,16 @@ Your trading data belongs to you.
 
 ### Installation
 
-1. Download the latest TradeLog installer from the **[Releases](../../releases)** page.
-2. Run the installer.
-3. Launch TradeLog.
-4. Start recording and analyzing your trades.
+The easiest way to get started with TradeLog is to use the pre-built Windows installer.
+
+1. Go to the **[Releases](../../releases)** page.
+2. Download the latest `TradeLog-Setup.exe`.
+3. Run the installer.
+4. Follow the installation instructions.
+5. Launch TradeLog.
+6. Start recording and analyzing your trades.
+
+No additional setup or development tools are required when using the pre-built installer.
 
 ---
 
@@ -54,15 +60,52 @@ Your trading data belongs to you.
 
 TradeLog supports importing trade history from **TradingView CSV exports**.
 
-Export your trading history from TradingView and import the CSV file through TradeLog's import functionality.
+1. Export your trade history from TradingView.
+2. Open TradeLog.
+3. Navigate to the import functionality.
+4. Select your TradingView CSV file.
+5. Review the imported trades.
+6. Import them into your TradeLog database.
 
 ---
 
 ## Screenshots
 
-Screenshots of the application will be added here.
+### Dashboard
 
-<!-- Add screenshots here -->
+![TradeLog Dashboard](screenshots/dashboard.png)
+
+### Trades
+
+![TradeLog Trades](screenshots/trades.png)
+
+### New Trade
+
+![TradeLog New Trade](screenshots/newtrade.png)
+
+### Analytics
+
+![TradeLog Analytics](screenshots/analytics.png)
+
+### Performance Reports
+
+![TradeLog Performance Reports](screenshots/performancereports.png)
+
+### Risk Calculator
+
+![TradeLog Risk Calculator](screenshots/riskcalculator.png)
+
+### Calendar
+
+![TradeLog Calendar](screenshots/calendar.png)
+
+### Knowledge Base
+
+![TradeLog Knowledge Base](screenshots/knowledgebase.png)
+
+### Settings
+
+![TradeLog Settings](screenshots/settings.png)
 
 ---
 
@@ -90,25 +133,28 @@ The roadmap may change as development continues.
 
 The initial stable Windows release of TradeLog.
 
-See the **[Releases](../../releases)** page for downloads and release notes.
+See the **[Releases](../../releases)** page for downloads, installers, and release notes.
 
 ---
 
-## Contributing
+## Bug Reports & Feature Requests
 
-Suggestions, bug reports, and feature requests are welcome.
+If you encounter a bug or have an idea for improving TradeLog, please open an issue in the GitHub repository.
 
-If you find a bug or have an idea for improving TradeLog, please open an issue and provide as much relevant information as possible.
+When reporting a bug, please include:
 
-Please note that the TradeLog source code is subject to the license included in this repository.
+- What happened
+- What you expected to happen
+- Steps to reproduce the issue
+- Any relevant screenshots or error messages
 
 ---
 
 ## License
 
-TradeLog is distributed under the **TradeLog Source-Available License**.
+TradeLog is distributed under the **TradeLog Software License**.
 
-The license permits personal and internal use, study, modification, and improvement of the software while placing restrictions on redistribution, publication, commercial use, and the use of the TradeLog name and branding.
+TradeLog is provided free of charge for personal and non-commercial use. Redistribution, repackaging, modification, commercial use, and use of the TradeLog name and branding are subject to the terms of the license.
 
 See the [`LICENSE`](LICENSE) file for the complete terms.
 
