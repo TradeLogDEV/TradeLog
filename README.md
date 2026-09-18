@@ -41,38 +41,12 @@ Your trading data belongs to you.
 - Windows 10 or newer
 - x64 processor
 
-## Installation
+### Installation
 
-There are two ways to install and run TradeLog.
-
-### Option 1 — Pre-Built Installer
-
-The easiest way to install TradeLog is to use the pre-made Windows installer.
-
-1. Go to the **[Releases](../../releases)** page.
-2. Download the latest `TradeLog-Setup.exe`.
-3. Run the installer.
-4. Follow the installation steps.
-5. Launch TradeLog from the Start Menu or desktop shortcut.
-
-This is the recommended method for users who simply want to use TradeLog.
-
----
-
-### Option 2 — Build the Desktop App
-
-If you have downloaded the TradeLog source code, you can build the desktop application yourself using the included `build-desktop.bat` file.
-
-1. Download or clone this repository.
-2. Make sure the required development dependencies are installed.
-3. Open the TradeLog project folder.
-4. Double-click `build-desktop.bat`.
-5. Follow the instructions shown in the terminal.
-6. Once the build completes, launch the generated desktop application from the output/build directory.
-
-This option is intended for developers or users who want to build TradeLog directly from the source code.
-
-> **Note:** The `build-desktop.bat` method requires the development environment and dependencies needed to build TradeLog. The pre-built installer does not require you to build the application yourself.
+1. Download the latest TradeLog installer from the **[Releases](../../releases)** page.
+2. Run the installer.
+3. Launch TradeLog.
+4. Start recording and analyzing your trades.
 
 ---
 
