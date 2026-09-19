@@ -56,8 +56,6 @@ No additional setup or development tools are required when using the pre-built i
 
 ---
 
-- 📥 **Trade Import** — Import trade history from TradingView, MetaTrader 4, and MetaTrader 5.
-
 ## Importing Trade History
 
 TradeLog supports importing trade history from multiple trading platforms.
