@@ -165,11 +165,9 @@ The roadmap may change as development continues.
 
 ## Releases
 
-### v1.0.0
+Download TradeLog for Windows from the **[Releases](../../releases)** page.
 
-The initial stable Windows release of TradeLog.
-
-See the **[Releases](../../releases)** page for downloads, installers, and release notes.
+Release notes and available downloads are provided with each version.
 
 ---
 
