@@ -12,13 +12,18 @@ TradeLog is designed to help traders record, review, and analyze their trading p
 - 📈 **Analytics** — Analyze performance by setups, sessions, and symbols.
 - 📅 **Trading Calendar** — Review your trading activity and performance by date.
 - 📝 **Trading Journal** — Document trades, thoughts, observations, and lessons.
+- 📖 **Knowledge Base** — Store and organize trading knowledge, notes, and useful information.
+- 📚 **Trading Playbook** — Build and maintain your personal trading playbook.
+- 🎯 **Goals & Targets** — Set and track your trading goals and performance targets.
 - 💹 **Trade Management** — Record and manage your individual trades.
-- 📥 **TradingView Import** — Import trade history directly from TradingView CSV exports.
+- 📥 **Trade Import** — Import completed trades from TradingView, MetaTrader 4, and MetaTrader 5.
 - 🎯 **Confidence Tracking** — Record your confidence level for each trade from 1–10.
 - 💰 **P&L Tracking** — Track profit and loss across your trades.
 - 📐 **R-Multiple Tracking** — Record and analyze R-multiple performance.
 - 📷 **Screenshot Support** — Attach screenshots to trades for visual review.
 - 📋 **Trade History** — Easily review previously recorded trades.
+- 🧮 **Risk Calculator** — Calculate position sizing and manage trade risk.
+- 💾 **Backup & Restore** — Create and restore portable backups of your local TradeLog data.
 - 🔒 **Local-First** — Your trading data stays on your computer.
 - ⚡ **Windows Desktop App** — Built as a dedicated desktop application for Windows.
 
@@ -63,8 +68,8 @@ TradeLog supports importing completed trades from **TradingView, MetaTrader 4, a
 ### Supported Platforms
 
 - **TradingView** — Import trades using TradingView CSV exports.
-- **MetaTrader 4** — Import completed positions using supported MT4 exports/reports.
-- **MetaTrader 5** — Import completed positions using supported MT5 exports/reports.
+- **MetaTrader 4** — Import completed positions using supported MT4 exports and reports.
+- **MetaTrader 5** — Import completed positions using supported MT5 exports and reports.
 
 ### How to Import
 
@@ -72,11 +77,28 @@ TradeLog supports importing completed trades from **TradingView, MetaTrader 4, a
 2. Go to **Import Trades**.
 3. Click **IMPORT** and choose your exported trade file.
 4. Review the import preview.
-5. Import the trades into your local TradeLog database.
+5. Import the trades into your TradeLog database.
 
-Imported trades remain **fully editable** after import, so you can add or adjust information inside TradeLog as needed.
+Imported trades remain **fully editable** after import, allowing you to add or adjust information inside TradeLog.
 
-TradeLog also supports **Backup & Restore**, allowing you to create a portable backup containing your trades, notes, daily reviews, settings, and screenshots.
+---
+
+## Backup & Restore
+
+TradeLog includes a built-in backup and restore system for your local data.
+
+Backups can include:
+
+- Trades
+- Notes
+- Daily reviews
+- Settings
+- Screenshots
+
+Backups are stored as portable ZIP files, making it easy to keep a copy of your TradeLog data.
+
+> **Important:** Restoring a backup replaces the current local dataset. Export a fresh backup before restoring if you may need to return to your current state.
+
 ---
 
 ## Screenshots
@@ -105,13 +127,21 @@ TradeLog also supports **Backup & Restore**, allowing you to create a portable b
 
 ![TradeLog Risk Calculator](screenshots/riskcalculator.png)
 
-### Calendar
+### Trading Calendar
 
 ![TradeLog Calendar](screenshots/calendar.png)
+
+### Goals & Targets
+
+![TradeLog Goals & Targets](screenshots/goalstargets.png)
 
 ### Knowledge Base
 
 ![TradeLog Knowledge Base](screenshots/knowledgebase.png)
+
+### Trading Playbook
+
+![TradeLog Trading Playbook](screenshots/playbook.png)
 
 ---
 
@@ -122,12 +152,12 @@ TradeLog is being developed with the goal of becoming a comprehensive trading pe
 Planned improvements may include:
 
 - More detailed performance analytics
-- Additional journal functionality
-- Expanded trade statistics
+- Expanded trading statistics
 - Improved reporting
 - Additional import options
 - UI and performance improvements
 - Further quality-of-life improvements
+- Additional tools for reviewing and improving trading performance
 
 The roadmap may change as development continues.
 
