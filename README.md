@@ -56,17 +56,35 @@ No additional setup or development tools are required when using the pre-built i
 
 ---
 
-## Importing TradingView Trades
+- 📥 **Trade Import** — Import trade history from TradingView, MetaTrader 4, and MetaTrader 5.
 
-TradeLog supports importing trade history from **TradingView CSV exports**.
+## Importing Trade History
+
+TradeLog supports importing trade history from multiple trading platforms.
+
+### TradingView
+
+TradeLog supports importing trade history using **TradingView CSV exports**.
 
 1. Export your trade history from TradingView.
 2. Open TradeLog.
 3. Navigate to the import functionality.
 4. Select your TradingView CSV file.
-5. Review the imported trades.
-6. Import them into your TradeLog database.
+5. Review the import preview.
+6. Import the trades into your TradeLog database.
 
+### MetaTrader 4 & MetaTrader 5
+
+TradeLog also supports importing trade history from **MetaTrader 4 (MT4)** and **MetaTrader 5 (MT5)** account statement files.
+
+1. Export your account history from MetaTrader.
+2. Open TradeLog.
+3. Navigate to the import functionality.
+4. Select your exported MetaTrader statement.
+5. Review the import preview.
+6. Import the trades into your TradeLog database.
+
+Supported import formats may vary depending on the export format provided by the trading platform.
 ---
 
 ## Screenshots
